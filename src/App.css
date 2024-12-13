@@ -1,0 +1,83 @@
+/* Light mode styles */
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-custom {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between; /* Ensures spacing between brand name and navbar items */
+  padding: 0 20px; /* Add padding on the left and right of the navbar */
+}
+
+.navbar-custom .nav-link {
+  color: #000;
+  font-size: 1.2rem; /* Increased font size for navbar items */
+  font-weight: 500; /* Slightly bolder font for navbar links */
+  margin-left: 20px; /* Adds spacing between each navbar item */
+  margin-right: 20px; /* Adds spacing on the right of the navbar item */
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode .navbar-custom {
+  background-color: #333;
+}
+
+.dark-mode .navbar-custom .nav-link {
+  color: #fff;
+  font-size: 1.2rem; /* Increased font size for navbar items */
+  font-weight: 500; /* Slightly bolder font for navbar links */
+}
+
+.dark-mode .hero-container {
+  background-color: #333;
+}
+
+.dark-mode .portfolio-container {
+  background-color: #444;
+}
+
+.dark-mode .about-container {
+  background-color: #333;
+}
+
+.dark-mode .contact-container {
+  background-color: #222;
+}
+
+/* Header brand name */
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Bolder font */
+  font-size: 2rem; /* Increase font size for better visibility */
+  color: #333; /* Default color for light mode */
+  display: inline-block; /* Ensures it stays on the left */
+}
+
+/* Dark mode styles */
+body.dark-mode .brand-name {
+  color: #fff; /* White color in dark mode */
+}
+
+/* Navbar link hover effect */
+.navbar-custom .nav-link:hover {
+  color: #007bff; /* Light blue hover effect */
+}
+
+body.dark-mode .navbar-custom .nav-link:hover {
+  color: #66c2ff; /* Lighter blue in dark mode for better contrast */
+}
+
+.dark-mode-toggle-btn {
+  color: #000;
+}
+
+body.dark-mode .dark-mode-toggle-btn {
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+/* Default (Light) Mode Styles */
+footer {
+    background-color: #343a40; /* Dark background for light mode */
+    color: #fff;
+  }
+  
+  footer .social-icons a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  footer .social-icons a:hover {
+    color: #007bff; /* Change to blue on hover */
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode footer {
+    background-color: #222; /* Darker background for dark mode */
+  }
+  
+  .dark-mode footer .social-icons a {
+    color: #fff;
+  }
+  
+  .dark-mode footer .social-icons a:hover {
+    color: #66afe9; /* Lighter blue hover effect for dark mode */
+  }
+  

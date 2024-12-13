@@ -1,0 +1,71 @@
+/* Default (Light) Mode Styles */
+.contact-section {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 50px 0;
+    display: grid;
+    place-items: center; /* This centers content both vertically and horizontally */
+    min-height: 100vh; /* Ensure the section takes full viewport height */
+  }
+  
+  .contact-section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section .form-group label {
+    color: #333;
+  }
+  
+  .contact-section .form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-section .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px; /* Adds space above the button */
+  }
+  
+  .contact-section .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .contact-section {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .contact-section h2 {
+    color: #fff;
+  }
+  
+  .dark-mode .contact-section .form-group label {
+    color: #fff;
+  }
+  
+  .dark-mode .contact-section .form-control {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #666;
+  }
+  
+  .dark-mode .contact-section .btn-primary {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode .contact-section .btn-primary:hover {
+    background-color: #666;
+  }
+  

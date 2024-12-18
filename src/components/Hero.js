@@ -14,7 +14,8 @@ function Hero() {
     <div className="hero-container">
       <div className="hero-video-container">
         <video className="hero-video" autoPlay loop muted>
-          <source src="/assets/videos/intro-video.mp4" type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/assets/videos/intro-video.mp4`} type="video/mp4" />
+
           Your browser does not support the video tag.
         </video>
       </div>

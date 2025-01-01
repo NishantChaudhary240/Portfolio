@@ -27,7 +27,7 @@ function Portfolio() {
                 A React-based chatbot application capable of real-time responses and user interaction.
                 Designed for enhanced communication experiences.
               </p>
-              <a href="project" className="btn btn-primary">View Project</a>
+              <a href="https://dribbble.com/shots/25325936-E-commerce" className="btn btn-primary">View Project</a>   {/* error */}
             </div>
           </div>
 
@@ -39,7 +39,7 @@ function Portfolio() {
                 A task management tool built with React, providing features like task creation, editing, and progress tracking
                 in an intuitive interface.
               </p>
-              <a href="project" className="btn btn-primary">View Project</a>
+              <a href="https://dribbble.com/shots/25325936-E-commerce" className="btn btn-primary">View Project</a>  {/* error */}
             </div>
           </div>
         </div>
